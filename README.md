@@ -18,6 +18,16 @@ npx skills add fityannugroho/skills --skill skill-name
 
 Otherwise, just **copy the skill files** from this repository into your project's skills directory.
 
+## Skills
+
+- [git-sync](git-sync) - Synchronize local git repository with the remote.
+- [node-deps-upgrade](node-deps-upgrade) - Easily upgrade your Node.js project dependencies with `ncu`.
+
+### Another skills
+
+- [csv-diff](https://github.com/fityannugroho/csv-diff) - Compare two CSV files and export the differences to `.diff` file.
+- [img-dl](https://github.com/fityannugroho/img-dl) - Download images from URLs.
+
 ## References
 
-- [AI Agent Skills specifications](https://agentskills.io)
+- [AI agent skills specifications](https://agentskills.io)
