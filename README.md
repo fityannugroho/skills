@@ -22,6 +22,7 @@ Otherwise, just **copy the skill files** from this repository into your project'
 
 - [git-sync](git-sync) - Synchronize local git repository with the remote.
 - [node-deps-upgrade](node-deps-upgrade) - Easily upgrade your Node.js project dependencies with `ncu`.
+- [background-exec](background-exec) - Execute  long-running commands in the background using tmux.
 
 ### Another skills
 

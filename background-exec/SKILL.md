@@ -1,6 +1,8 @@
 ---
 name: background-exec
 description: Run long-running commands in background using tmux. TRIGGER on: any command taking >5s, builds, compilations, migrations, deploys, tests. TRIGGER on phrases: background, run in background, don't block, don't wait, run later. ALWAYS use for heavy commands instead of blocking.
+author: fityannugroho
+license: MIT
 ---
 
 # Background Execution with tmux

@@ -1,6 +1,7 @@
 ---
 name: git-sync
 description: Synchronize git local with the remote.
+author: fityannugroho
 license: MIT
 ---
 

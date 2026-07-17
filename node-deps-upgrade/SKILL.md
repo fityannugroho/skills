@@ -1,6 +1,7 @@
 ---
 name: node-deps-upgrade
 description: Upgrade node.js project dependencies easily using npm-check-updates.
+author: fityannugroho
 license: MIT
 ---
 
