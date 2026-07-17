@@ -20,9 +20,10 @@ Otherwise, just **copy the skill files** from this repository into your project'
 
 ## Skills
 
+- [background-exec](background-exec) - Execute  long-running commands in the background using tmux.
 - [git-sync](git-sync) - Synchronize local git repository with the remote.
 - [node-deps-upgrade](node-deps-upgrade) - Easily upgrade your Node.js project dependencies with `ncu`.
-- [background-exec](background-exec) - Execute  long-running commands in the background using tmux.
+- [toon](toon) - Write data in TOON format, encode JSON to TOON, decode TOON to JSON.
 
 ### Another skills
 

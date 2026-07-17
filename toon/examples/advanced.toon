@@ -1,0 +1,42 @@
+# Tab delimiter
+data[3	]{name	value}:
+  alpha	1
+  beta	2
+  gamma	3
+
+# Pipe delimiter
+csv[4|]{a|b|c}:
+  1|2|3
+  4|5|6
+  7|8|9
+  10|11|12
+
+# Key folding (encoder option keyFolding: 'safe')
+api.v1.users.endpoint: /users
+api.v1.users.method: GET
+api.v1.users.auth: required
+
+# Root array
+[3]: x,y,z
+
+# Root array with tabular
+[2]{id,label}:
+  1,First
+  2,Second
+
+# Quoting edge cases
+quoted:
+  empty: ""
+  spaced: "  hello  "
+  literalNull: "null"
+  asNumber: "42"
+  withColon: "key:val"
+  leadingDash: "-value"
+  escapeNewline: "line1\nline2"
+  escapeTab: "col1\tcol2"
+
+# Mixed with nested object
+metadata[3]:
+  - registered: "2024-01-15"
+  - active: true
+  - notes: first-time buyer

@@ -1,0 +1,46 @@
+# Tabular array — users
+users[3]{id,name,role}:
+  1,Alice,admin
+  2,Bob,user
+  3,Charlie,moderator
+
+# Tabular array — products
+products[2]{sku,name,price,stock}:
+  A1,Widget,9.99,42
+  B2,Gadget,24.50,15
+
+# Tabular with quoted values (comma in string)
+notes[2]{id,content}:
+  1,"Note with, comma"
+  2,"Another, example"
+
+# Objects as list items
+contributors[2]:
+  - login: alice
+    role: maintainer
+    repos: 12
+  - login: bob
+    role: contributor
+    repos: 3
+
+# Tabular as first field in list item
+products_list[2]:
+  - variants[2]{size,color}:
+      M,red
+      L,blue
+    status: active
+  - variants[1]{size,color}:
+      XL,green
+    status: inactive
+
+# Arrays of arrays
+matrix[2]:
+  - [2]: 1,2
+  - [2]: 3,4
+
+# Mixed array
+mixed[4]:
+  - string entry
+  - 42
+  - keyed: value
+  - true
